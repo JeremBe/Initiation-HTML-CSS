@@ -36,7 +36,7 @@ var changeActive = function (link) {
 $(window).scroll(function () {
     var scrollTop = $(window).scrollTop();
 
-    // condition pour changer l'opacité du la navbar
+    // conditions pour changer l'opacité de la navbar
     if ( 50 < scrollTop ) {
         $(".navbar").css('background','rgba(0,0,0,1)');
         $(".navbar-nav a").css('color','black');
@@ -46,7 +46,7 @@ $(window).scroll(function () {
         $(".navbar-nav>li>a").css('color','white !important');
     }
 
-    // condition pour l'affichage de la bordure de l'élément actif
+    // conditions pour l'affichage de la bordure de l'élément actif
     switch (true) {
       case (scrollTop < presentation):
             changeActive('accueil');
@@ -72,6 +72,6 @@ $(window).scroll(function () {
     }
 });
 
-// redimentionnement de chaque section en fonction de la taille de l'écran
+// redimensionnement de chaque section en fonction de la taille de l'écran
 var height = $(window).height();
 $('.sections').css('min-height', height+'px');
