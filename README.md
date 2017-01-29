@@ -1,5 +1,5 @@
 # Initiation HTML CSS
-### Preview [Initiation HTML CSS](https://www.google.com)
+### Preview [Initiation HTML CSS](https://jerembe.github.io/Initiation-HTML-CSS/)
 ###### Site créé par les élèves.
 
 ### Formation ( 3 jours ou plus ), initiation à la création d'un site web.
