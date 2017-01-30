@@ -75,3 +75,8 @@ $(window).scroll(function () {
 // redimensionnement de chaque section en fonction de la taille de l'écran
 var height = $(window).height();
 $('.sections').css('min-height', height+'px');
+
+// initialisation tooltip
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
