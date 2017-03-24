@@ -11,7 +11,6 @@
 #### 
 
     *HTML*              | *CSS*                    | *BootStrap*                   
- -----------------------|--------------------------|------------------------------
  1. Les Balises         | 1. Les sélecteurs        | 1. Prise en main installation 
  2. HEAD et BODY        | 2. Style du texte        | 2. Le système de grille       
  3. Organiser son texte | 3. Couleur de fond       | 3. La typographie             
